@@ -15,9 +15,9 @@ h1 {
     text-align: center;
     }
 
-h2 {
+button {
     padding: 10px;
-    background-color: yellow;
+    background-color: #ffbb00;
     color: #fff;
  }
 
