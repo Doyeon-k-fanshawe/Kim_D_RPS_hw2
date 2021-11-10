@@ -1,0 +1,28 @@
+/*
+Style Name: HTML Atributes & Forms 
+Description: CSS
+Author: Doyeon Kim 
+Version: 1.0
+Tags: CSS
+*/
+
+
+/* ___________________________________________
+
+       CSS Guide
+___________________________________________ */
+h1 {
+    text-align: center;
+    }
+
+h2 {
+    padding: 10px;
+    background-color: yellow;
+    color: #fff;
+ }
+
+ .container {
+     width: 600px;
+     margin: 20px auto;
+     text-align: center;
+ }

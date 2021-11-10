@@ -1,4 +1,4 @@
-![rps game](rps.jpg "RPS Game")
+![rps game](images/rps.jpg "RPS Game")
 
 # Rock Paper Scissors Game with Python!
 
@@ -6,74 +6,28 @@ TODO: Creating Rock Paper Scissors game with python.
 
 Rock Paper Scissors in Python
 
-==============================
+## Rock Paper Scissors - Python text-based take on a classic!
 
-A choosing game with three options. The player will choose one of 3 options; the computer / AI will choose one of the same 3 at random and then compare those 2 choices. 
+Pick your weapon and play against the computer - you'll only get a virtual sting if you lose!
 
-The loser loses a life; the game will play on a loop until one player loses all lives.
+### Prerequisites
 
-Approach: 
-Hold the options in an array: [“rock”, “paper”, “scissors”]
-The Player’s choice has to be stored in a variable as well -> “rock”, “paper”, “scissors”
-provide the user input via a text prompt => Done!
-Let the computer choose at random
-Figure out the path to win and lose
+All you need is Python 3 to play.
 
-When comparing, some rules to follow: 
+### Usage
+Clone the project, <code>cd</code> to your directory/download, and run the game.py file in a Python 3 shell (Terminal on a mac / Linux, Windows command prompt).
 
-Rock beats scissors
-Rock loses to paper
+### Rules
+Same as the classic game:
 
-If (player == “rock”)
-    What did the computer pick?
-    If it’s paper, we lose
-    If it’s scissors, we win
-    If it’s a tie, play again
+Paper covers Rock  Scissors cuts Paper  Rock smashes Scissors
 
-Scissors beats paper
-Scissors loses to rock
+Choose your weapon wisely!
 
-Paper beats rock
-Paper loses to scissors
+Built with Python 3
 
-If the player loses a round
-    Lose a life
-Else we win!
-    AI loses a life
+Enjoy!
 
-
-
-Things to consider:
-What happens if a user misspells a choice?
-What happens if it’s a tie?
-What if a user doesn’t want to finish the game?
-What if they don’t type the whole word?
-
-How do you win? => figure out how to create  What happens when you run out of lives?
-
-
-## Installation
-
-TODO: Describe the installation process
-
-## Usage
-
-TODO: Write usage instructions
-
-## Contributing
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
-
-## Credits
-
-TODO: Write credits
-// give accreditation to any resources / authors whose work you're using
-
-## License
-
+### License 
 MIT
+
