@@ -1,13 +1,13 @@
-from gameComponents import gameVars
+from gameComponents import gameVars, color
 
 
 def winorlose(status):
     print("you " + status)
 
-    choice = input('\033[36m' + 'do you want to play again?😍 y/n: ')
+    choice = input(str(color.c4) + "do you want to play again?😍 y/n: ")
 
     if choice == "n":
-        print('\033[92m' + '========= see ya!🤩🤩  ==========' + '\033[0m\n')
+        print(str(color.c6) + "=======see ya!🤩🤩========" + str(color.c5))
         exit()
     elif choice == "y":
         gameVars.playerLives = 3
