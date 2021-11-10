@@ -21,11 +21,11 @@ Clone the project, <code>cd</code> to your directory/download, and run the game.
 
 Same as the classic game:
 
-⋅⋅* Paper covers Rock  
-⋅⋅* Scissors cuts Paper  
-⋅⋅* Rock smashes Scissors
+* Paper covers Rock  
+- Scissors cuts Paper  
++ Rock smashes Scissors
 
-<b>Choose your weapon wisely!
+*Choose your weapon wisely!*
 
 Built with [Python 3](https://www.python.org/doc "python documentation link")
 Enjoy!
