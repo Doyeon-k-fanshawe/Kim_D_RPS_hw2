@@ -25,7 +25,7 @@ Same as the classic game:
 - Scissors cuts Paper  
 + Rock smashes Scissors
 
-*Choose your weapon wisely!*
+**Choose your weapon wisely!**
 
 Built with [Python 3](https://www.python.org/doc "python documentation link")
 Enjoy!
