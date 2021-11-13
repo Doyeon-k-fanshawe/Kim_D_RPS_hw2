@@ -3,7 +3,7 @@ from gameComponents import gameVars, color
 computer = gameVars.choices
 
 def weaponsame(status):
-    if computer == gameVars.player:
+    if gameVars.player == computer:
         print(str(color.c3) + "tie! " + status + str(color.c5))
         # tie - nothing else to compare, so it"ll exit
 
@@ -27,5 +27,3 @@ def weaponscissors(status):
             print(str(color.c7) + "you " + status + str(color.c5))
         else:
             print(str(color.c8) + "you " + status + str(color.c5))
-
-    gameVars.player = False
